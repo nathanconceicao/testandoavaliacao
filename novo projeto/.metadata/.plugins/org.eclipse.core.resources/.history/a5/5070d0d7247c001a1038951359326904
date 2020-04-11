@@ -1,0 +1,10 @@
+package projetoE;
+
+public class mandarmensagem {
+	private String msg;
+
+	public String mandar() {
+		System.out.println(this.msg);
+		return this.msg;
+	}
+}

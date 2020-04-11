@@ -1,0 +1,8 @@
+package projetoG;
+
+public class imc {
+	public double imcTotal(double peso, double altura) {
+		double resultado =peso*altura/2;
+		return resultado;
+	}
+}

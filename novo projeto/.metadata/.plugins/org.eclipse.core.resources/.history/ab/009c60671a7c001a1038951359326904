@@ -1,0 +1,63 @@
+package projetoA;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class retornoTeste {
+
+	@Test
+	public void testepeso() {
+		double peso =5.0;
+		double alt = 1.80;
+		produto pro = new produto(peso, alt);
+		double resultadoEsp = 5.0;
+		double resultadoReal = pro.p
+	}
+	
+	
+	
+	
+	/*
+	@Test
+	public void getPeso() {
+		double pes = 5.0;
+		produto pro = new produto(pes, 0);
+		double resultadoEsp = 5.0;
+		double resultadoReal = pro.getPeso();
+		assertEquals(resultadoEsp, resultadoReal);
+		//assertEquals(resultadoEsp, resultadoReal);
+	}
+	@Test
+	public void getAltura() {
+		double alt = 1.80;
+		produto pro = new produto(0, alt);
+		double resultadoEsp = 1.80;
+		double resultadoReal = pro.getAltura();
+		assertEquals(resultadoEsp, resultadoReal);
+	}
+	
+	@Test
+	public void setPeso() {
+		double pes = 5.0;
+		double alt = 1.80;
+		produto pro = new produto(pes, alt);
+		pro.setPeso(6);
+		double resultEsp=6;
+		double resultReal= pro.getPeso();
+		assertEquals(resultEsp, resultReal);
+	}
+	
+	@Test
+	public void setAltura() {
+		double pes = 5.0;
+		double alt = 1.80;
+		produto pro = new produto(pes, alt);
+		pro.setAltura(8);
+		double resultEsp=8;
+		double resultReal= pro.getAltura();
+		assertEquals(resultEsp, resultReal);
+	}*/
+	
+
+}

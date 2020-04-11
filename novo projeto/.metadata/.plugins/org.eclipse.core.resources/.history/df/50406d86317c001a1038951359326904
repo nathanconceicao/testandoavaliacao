@@ -1,0 +1,20 @@
+package projetoG;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class testImc {
+
+	@Test
+	public void test() {
+		double n1=1.90;
+		double n2=100.00;
+		double n3 = 27.0;
+		imc i = new imc();
+		double resultEsp = n3;
+		double resultReal = i.imcTotal(n1, n2);
+		assertEquals(resultEsp, resultReal);
+	}
+
+}

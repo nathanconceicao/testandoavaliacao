@@ -1,0 +1,19 @@
+package projetoD;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MinMaxTest {
+
+	@Test
+	public void testDigitacao() {
+	int nroDigitado = 0;
+	int valEsperado = 1;
+	MinMax comparadora = new MinMax();
+	nroDigitado = comparadora.capturaNro();
+	assertEquals(nroDigitado, valEsperado);
+	}
+
+
+}

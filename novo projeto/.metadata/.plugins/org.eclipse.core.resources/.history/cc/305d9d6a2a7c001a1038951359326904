@@ -1,0 +1,32 @@
+package projetoF;
+
+import java.util.Scanner;
+
+public class diferenciaDeIdade {
+	
+	
+	
+	public int difer(int idade1, int idade2) {
+		Scanner sc = new Scanner(System.in);
+		
+		int resultadoIdade;
+		
+		System.out.println("digite a idade1: ");
+		idade1 = sc.nextInt();
+		System.out.println("digite a idade2: ");
+		idade2 = sc.nextInt();
+		
+		if(idade1 > idade2) {
+			resultadoIdade = idade1;
+			System.out.println("a maior idade é : " + idade1);
+			return resultadoIdade;
+		}else {
+			resultadoIdade = idade2;
+			System.out.println("a maior idade é : " + idade2);
+			return resultadoIdade;
+		}
+		
+	}
+	
+	
+}

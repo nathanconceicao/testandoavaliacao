@@ -1,0 +1,14 @@
+package projetoB;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class retornoCalculadora {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

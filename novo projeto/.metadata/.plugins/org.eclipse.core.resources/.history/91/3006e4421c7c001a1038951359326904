@@ -1,0 +1,19 @@
+package projetoA;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class retornoTeste {
+
+	
+	@Test
+	public void testepeso() {
+		double pes =5.0;
+		double alt = 1.80;
+		produto pro = new produto();
+		double resultadoEsp = 5.0;
+		double resultadoReal = pro.produto(pes, alt);
+		//assertEquals(resultadoEsp, resultadoReal);
+	}
+}

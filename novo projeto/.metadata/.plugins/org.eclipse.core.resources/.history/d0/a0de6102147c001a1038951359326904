@@ -1,0 +1,9 @@
+package projetoA;
+
+public class produto {
+
+	public int retornaNumero() {
+		return 1;
+	};
+	
+}

@@ -1,0 +1,19 @@
+package projetoA;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class retornoTeste {
+
+	@Test
+	public void testRetorno() {
+		produto produtoA = new produto();
+		
+		int x = produtoA.retornaNumero();
+		
+		assertEquals(x, 1);
+		
+	}
+
+}
